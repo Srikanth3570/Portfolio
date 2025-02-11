@@ -1,0 +1,637 @@
+* {
+    font-family: garamond, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    background-color: #1d2226f0;
+    border-bottom: 3px solid #1d2226f0;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#profile-img {
+    width: 450px;
+    border-radius: 50%;
+    animation: imgg 2s ease-in-out infinite;
+    animation-delay: 2s;
+    box-shadow: 10px 10px 30px rgba(135, 140, 130, 0.5);
+}
+
+@keyframes imgg {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-22px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.about-me {
+    background-color: #1d2226f0;
+    color: white;
+    box-shadow: 5px 5px 20px rgba(81, 60, 60, 0.3);
+}
+
+h1, span {
+    color: rgb(0, 0, 0);
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+img, svg {
+    vertical-align: middle;
+    width: 2em;
+    height: 1.5em;
+}
+
+#hanging-icons {
+    margin-bottom: 200px;
+}
+
+.projects {
+    position: relative;
+    bottom: 250px;
+}
+
+.logo-footer {
+    width: 50px;
+    height: 50px;
+}
+
+#Main-name {
+    font-family: garamond;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+@media (min-width: 100px) and (max-width: 642px) {
+    #Main-name {
+        font-size: 30px;
+    }
+}
+
+#side-name {
+    font-family: garamond italic;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 100px) and (max-width: 642px) {
+    #side-name {
+        font-size: 30px;
+    }
+}
+
+.main-footer {
+    padding: 3em;
+}
+
+.navbar {
+    background: rgba(64, 64, 64);
+    padding: 12px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ffdd57 !important;
+    transform: scale(1.1);
+}
+
+.download-btn {
+    background-color: #ffdd57;
+    color: #d9d3c5 !important;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #ffc107;
+    transform: scale(1.1);
+}
+
+.navbar-toggler {
+    border: none;
+    filter: invert(100%); 
+}
+
+.about-me {
+    background-color: #1d2226f0;
+    color: white;
+    box-shadow: 5px 5px 20px rgb(239, 224, 224);
+}
+
+.about-me h1 {
+    color: #9c9d99;
+}
+
+.about-me p {
+        font-size: 18px;
+        color: #c0b1b1;
+        text-align: justify;
+        margin: 0; /* Removes default margins */
+        padding: 0; /* Removes extra padding */
+        line-height: 1.5; /* Adjust for better readability if needed */
+    }
+    
+
+
+#dynamic-text {
+    color: #0bb8be55;
+    font-size: 39px;
+    display: inline-block;
+    min-width: 150px; /* Adjust based on expected content */
+    text-align: left;
+}
+
+.custom-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    width: 180px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+    transform: scale(1.1);
+}
+
+.small-text {
+    font-size: 20px;
+}
+
+.custom-btn:hover {
+    transform: scale(1.05);
+}
+
+.skill-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    animation: zoom-in-out 0.6s ease-in-out;
+}
+
+@keyframes zoom-in-out {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.skill-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.shadow-box {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.project-card:hover img {
+    transform: scale(1.1);
+}
+
+.project-card .btn:hover {
+    transform: scale(1.1);
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.image-container img.active {
+    opacity: 1;
+}
+
+.navbar {
+    background-color: #1d2226f0;
+    box-shadow: 0px 4px 3px #1d2226f0;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section .form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+}
+
+.contact-section .form-control {
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+.contact-section .custom-btn {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-section .custom-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-me h2.position-relative {
+    position: relative;
+}
+
+.contact-me .position-absolute {
+    border-bottom: 2px solid #007bff;
+}
+
+.contact-me .row {
+    justify-content: center;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    #profile-img {
+        height: 250px;
+        width: 350px;
+    }
+
+    .text {
+        margin-bottom: 30px;
+    }
+
+    .main-footer {
+        padding: 1.5em;
+    }
+
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .projects {
+        position: relative;
+        bottom: 200px;
+    }
+
+    #Main-name {
+        font-size: 30px;
+    }
+
+    #side-name {
+        font-size: 25px;
+    }
+}
+
+/* Custom Styles for Project Card */
+
+/* Remove extra margin and padding */
+.project-card .card-body {
+    padding: 1rem;
+}
+
+.project-card ul {
+    margin-bottom: 1rem;
+}
+
+.project-card .btn {
+    margin-bottom: 19px;
+}
+
+/* Adjust button spacing */
+.d-grid.gap-2 .btn {
+    margin: bottom 0.3em;
+}
+
+@media (min-width: 768px) {
+    .project-card .btn {
+        width: auto;
+        margin-right: 0.5rem;
+    }
+    .project-card .btn:last-child {
+        margin-right: 0;
+    }
+    
+}
+@media (min-width: 200px) and (max-width: 500px) {
+    #dynamic-text{
+        font-size: 22px;
+        display: inline-block;
+        min-width: 150px; /* Adjust based on expected content */
+        text-align: left;
+    }
+}
+/* Adding zoom-in/zoom-out effect to social icons */
+.social-icon {
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2); /* Zoom in */
+    filter: brightness(1.2); /* Slightly brighten the icon */
+  }
+  
+  .social-icon:active {
+    transform: scale(1); /* Zoom out effect on click */
+    filter: brightness(1); /* Return to original brightness */
+  }
+  /* .............................................................. */
+  /* Animate skills on scroll */
+.skill-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateX(100px); /* Start from right */
+}
+
+.skill-card.visible {
+    opacity: 1;
+    transform: translateX(0); /* Slide to original position */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.skill-card.left {
+    transform: translateX(-100px); /* Start from left */
+}
+
+.skill-card.right {
+    transform: translateX(100px); /* Start from right */
+}
+
+
+.skill-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    animation: zoom-in-out 0.6s ease-in-out;
+}
+
+@keyframes zoom-in-out {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.skill-card .skill-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-card:hover .skill-icon {
+    transform: scale(1.2); /* Zoom the icon itself */
+} 
+/* .................................................................. */
+/* Navbar should be fixed with a high z-index */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  /* Toggle button styling for visibility */
+  .navbar-toggler {
+    z-index: 10000;
+    outline: none;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  .navbar-toggle {
+    z-index: 1000;
+    position: relative;
+  }
+  @media (min-width:150px) and (max-width:350px){
+    .custom-btn{
+        font-size: 9px;
+    }
+  }
+  @media (min-width:351px) and (max-width:767px){
+    .custom-btn{
+        font-size: 13px;
+    }
+  }
+  .navbar .btn-resume {
+    margin-top: 10px; /* Add some spacing from the top */
+    padding: 8px 16px; /* Adjust button padding for better proportions */
+    font-size: 14px; /* Ensure font size is readable */
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none; /* Remove the default outline */
+    box-shadow: none; /* Remove any shadow effects */
+  }
+  .navbar-toggler:focus {
+    outline: 2px solid #00bcd4; /* Add a custom outline color */
+    outline-offset: 2px; /* Add spacing between the outline and button */
+  }
+  .navbar-toggler {
+    width: 30px; /* Adjust the width */
+    height: 30px; /* Adjust the height */
+    padding: 4px; /* Optional: reduce padding for a smaller icon */
+  }
+  
+  .navbar-toggler-icon {
+    width: 20px; /* Adjust the icon width */
+    height: 20px; /* Adjust the icon height */
+    background-size: 100%; /* Ensure the icon scales properly */
+  }
+  #description {
+    margin-bottom: 20px; /* Adjust the value to increase or decrease spacing */
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #adb5bd; 
+}
+
+.btn-resume {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.btn-resume:hover {
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+/* Adjust spacing for smaller screens */
+@media (max-width: 992px) {
+    .btn-resume {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-bottom: 1rem;
+    }
+}
+
+section {
+    margin-bottom: 0 !important; /* Removes bottom margin from the section */
+}
+
+#skills, #projects, #contact {
+    padding-bottom: 0 !important; 
+}
+
+.row {
+    margin-bottom: 0 !important; /* Reduces the margin below the row */
+    padding-bottom: 0 !important; /* Reduces padding below the row */
+}
+
+.btn-secondary{
+    width: 119.38px;
+    height: 37.6px;
+}
+
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
