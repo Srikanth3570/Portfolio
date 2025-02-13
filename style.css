@@ -457,10 +457,10 @@ img, svg {
 
 @media (min-width: 992px) {
     #dynamic-text {
-        font-size: 45px;
+        font-size: 38px;
     }
     .about-me h1 {
-        font-size: 60px;
+        font-size: 52px;
     }
 }
 
