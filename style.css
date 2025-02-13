@@ -773,7 +773,7 @@ img, svg {
   }
   @media (min-width:150px) and (max-width:350px){
     .custom-btn{
-        font-size: 9px;
+        font-size: 8px;
     }
   }
   @media (min-width:351px) and (max-width:767px){
