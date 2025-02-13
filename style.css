@@ -478,13 +478,13 @@ img, svg {
 }
 @media (min-width: 330px) and (max-width:355px) {
     #dynamic-text{
-        font-size: 26px;
+        font-size: 25px;
         display: inline-block;
         min-width: 150px; /* Adjust based on expected content */
         text-align: left;
     }
     .about-me h1 {
-        font-size: 36px;
+        font-size: 35px;
     }
 }
 
