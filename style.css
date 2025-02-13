@@ -419,252 +419,51 @@ img, svg {
     }
     
 }
-@media (min-width: 230px) and (max-width:250px) {
-    #dynamic-text{
+@media (max-width: 320px) {
+    #dynamic-text {
         font-size: 16px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
     }
     .about-me h1 {
         font-size: 22px;
     }
-} 
-
-@media (min-width: 250px) and (max-width:270px) {
-    #dynamic-text{
-        font-size: 17px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 24px;
-    }
-}
-@media (min-width: 250px) and (max-width:270px) {
-    #dynamic-text{
-        font-size: 18px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 25px;
-    }
 }
 
-@media (min-width: 270px) and (max-width:300px) {
-    #dynamic-text{
+@media (min-width: 321px) and (max-width: 480px) {
+    #dynamic-text {
         font-size: 20px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
     }
     .about-me h1 {
-        font-size: 27px;
+        font-size: 28px;
     }
 }
-@media (min-width: 300px) and (max-width:330px) {
-    #dynamic-text{
-        font-size: 23px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 31px;
-    }
-}
-@media (min-width: 330px) and (max-width:355px) {
-    #dynamic-text{
-        font-size: 25px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #dynamic-text {
+        font-size: 26px;
     }
     .about-me h1 {
         font-size: 35px;
     }
 }
 
-@media (min-width: 355px) and (max-width:367px) {
-    #dynamic-text{
-        font-size: 28px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 38px;
-    }
-}
-@media (min-width: 367px) and (max-width:377px) {
-    #dynamic-text{
-        font-size: 28px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 38px;
-    }
-}
-@media (min-width: 377px) and (max-width:400px) {
-    #dynamic-text{
-        font-size: 28px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 41px;
-    }
-}
-@media (min-width: 400px) and (max-width:404px) {
-    #dynamic-text{
-        font-size: 32px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 44px;
-    }
-}
-@media (min-width: 404px) and (max-width:420px) {
-    #dynamic-text{
-        font-size: 32px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 44px;
-    }
-}
-@media (min-width: 420px) and (max-width: 460px) {
-    #dynamic-text{
+@media (min-width: 769px) and (max-width: 991px) {
+    #dynamic-text {
         font-size: 34px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
     }
     .about-me h1 {
-        font-size: 46px;
-    }
-}
-@media (min-width: 470px) and (max-width: 500px) {
-    #dynamic-text{
-        font-size: 38px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 53px;
-    }
-}
-@media (min-width: 501px) and (max-width: 520px) {
-    #dynamic-text{
-        font-size: 41px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 56px;
-    }
-}
-@media (min-width: 521px) and (max-width: 540px) {
-    #dynamic-text{
-        font-size: 43px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 59px;
+        font-size: 44px;
     }
 }
 
-@media (min-width: 541px) and (max-width: 550px) {
-    #dynamic-text{
+@media (min-width: 992px) {
+    #dynamic-text {
         font-size: 45px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
     }
     .about-me h1 {
-        font-size: 62px;
+        font-size: 60px;
     }
 }
-@media (min-width: 550px) and (max-width: 561px) {
-    #dynamic-text{
-        font-size: 45px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 62px;
-    }
-}
-@media (min-width: 561px) and (max-width: 580px) {
-    #dynamic-text{
-        font-size: 45px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 61px;
-    }
-}
-@media (min-width: 580px) and (max-width: 630px) {
-    #dynamic-text{
-        font-size: 45px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 61px;
-    }
-}
-@media (min-width: 630px) and (max-width: 700px) {
-    #dynamic-text{
-        font-size: 45px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 61px;
-    }
-}
-@media (min-width: 700px) and (max-width: 768px) {
-    #dynamic-text{
-        font-size: 45px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 61px;
-    }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-    #dynamic-text{
-        font-size: 56px;
-        display: inline-block;
-        min-width: 150px; /* Adjust based on expected content */
-        text-align: left;
-    }
-    .about-me h1 {
-        font-size: 73px;
-    }
-}
+
 /* Adding zoom-in/zoom-out effect to social icons */
 .social-icon {
     transition: transform 0.3s ease, filter 0.3s ease;
