@@ -159,13 +159,6 @@ img, svg {
 }
 
 .about-me p {
-    /* font-size: 18px;
-    color: #c0b1b1;
-    text-align: justify;
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
-    word-break: break-word; */
     font-size: 15px;
     color: #c0b1b1;
     text-align: justify;
@@ -426,16 +419,27 @@ img, svg {
     }
     
 }
-
-@media (min-width: 250px) and (max-width:270px) {
+@media (min-width: 230px) and (max-width:250px) {
     #dynamic-text{
-        font-size: 18px;
+        font-size: 16px;
         display: inline-block;
         min-width: 150px; /* Adjust based on expected content */
         text-align: left;
     }
     .about-me h1 {
-        font-size: 25px;
+        font-size: 22px;
+    }
+} 
+
+@media (min-width: 250px) and (max-width:270px) {
+    #dynamic-text{
+        font-size: 17px;
+        display: inline-block;
+        min-width: 150px; /* Adjust based on expected content */
+        text-align: left;
+    }
+    .about-me h1 {
+        font-size: 24px;
     }
 }
 @media (min-width: 250px) and (max-width:270px) {
