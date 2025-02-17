@@ -273,12 +273,23 @@
 <section class="contact-me" id="contact">
     <div class="container px-4 py-5">
         <h2 class="pb-2 border-bottom text-center">Contact Me</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3"></div>
-    
-        <div class="row justify-content-center g-4">
+        <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <!-- Left side image -->
+            <div class="col-md-6">
+                <div class="card contact-card">
+                    <div class="gitintouch">
+                        <img src="./getintouch.png" class="card-img-top img-fluid rounded zoom-image" alt="Contact Image">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Feel free to contact me</h5>
+                        <p class="card-text">I'm here to help! Feel free to reach out if you have any questions or need assistance.</p>
+                    </div>
+                </div>
+            </div>
+            
             <!-- Contact Form Card -->
             <div class="col-md-6">
-                <div class="card shadow-lg p-4" data-aos="fade-up">
+                <div class="card shadow-lg p-4 contact-card" data-aos="fade-up">
                     <h3 class="card-title text-center">Get in Touch</h3>
                     <form id="contact-form" action="https://formspree.io/f/mgvozado" method="POST" onsubmit="handleFormSubmit(event)">
                         <div class="mb-3">
@@ -300,30 +311,28 @@
                     </form>
                 </div>
             </div>
-            
-            
         </div>
     </div>
 
     <!-- Thank You Modal -->
-<div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-            </div>
-            <div class="modal-body">
-                Your message has been sent successfully. We'll get back to you soon!
-            </div>
-            <div class="modal-footer">
-                <!-- Another close button -->
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</button>
+    <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                </div>
+                <div class="modal-body">
+                    Your message has been sent successfully. We'll get back to you soon!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-    
 </section>
+
+
+
 
 
      <!-- footer -->
