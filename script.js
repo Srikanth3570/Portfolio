@@ -134,3 +134,24 @@ document.addEventListener("scroll", () => {
     }
   });
   
+
+
+//   extraa.........................................................................................
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const aboutSection = document.querySelector(".about-me");
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    aboutSection.classList.add("show");
+                    observer.unobserve(entry.target); // Run once
+                }
+            });
+        },
+        { threshold: 0.3 }
+    );
+
+    observer.observe(aboutSection);
+});

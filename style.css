@@ -695,3 +695,48 @@ h5{
     height: auto;
 }
 
+
+/* extra................................................... */
+/* Keep Background Fixed */
+.about-me {
+    position: relative;
+    background-attachment: fixed; /* Background stays still */
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+}
+
+/* Profile Image: Move from Right to Left */
+#profile-img {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+/* Text Animation: 3D Zoom In */
+#description, #hello, #dynamic-text {
+    opacity: 0;
+    transform: scale(0.8) rotateX(20deg);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+/* When Section Becomes Visible */
+.about-me.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.about-me.show #profile-img {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.about-me.show #description,
+.about-me.show #hello,
+.about-me.show #dynamic-text {
+    opacity: 1;
+    transform: scale(1) rotateX(0);
+}
+
