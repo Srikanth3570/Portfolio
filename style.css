@@ -740,3 +740,12 @@ h5{
     transform: scale(1) rotateX(0);
 }
 
+.main-footer{
+    background-color: #1d2226f0;
+    color: white;
+    box-shadow: 5px 5px 20px rgba(81, 60, 60, 0.3);
+}
+
+
+
+
