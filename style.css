@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap'); 
+
 * {
     font-family: garamond, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+#hello{
+  font-family:'Tangerine';
+  font-weight: 1000;
+  font-style: normal;
+  color:#9c9d99;
 }
 
 .heading {
@@ -152,6 +160,7 @@ img, svg {
     color: #9c9d99;
     font-size: 3rem; /* Default size for desktops */
     font-weight: bold;
+    /* font-family:'Tangerine'; */
 }
 
 .about-me p {
@@ -346,10 +355,6 @@ img, svg {
 
 /* Media Queries */
 @media (max-width: 767px) {
-    #profile-img {
-        height: 250px;
-        width: 350px;
-    }
 
     .text {
         margin-bottom: 30px;
