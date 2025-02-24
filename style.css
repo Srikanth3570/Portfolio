@@ -691,7 +691,7 @@ h5{
     font-size: 20px;
 }
 .img-fluid {
-    max-width: 87%;
+    max-width: 100%;
     height: auto;
 }
 
