@@ -751,12 +751,5 @@ h5{
     height: 100px;
     width: 100px;
 }
-.video {
-    transition: transform 0.2s ease-in-out;
-}
-
-.video:hover {
-    transform: scale(1.5); /* Increases size by 1.5x on hover */
-}
 
 
