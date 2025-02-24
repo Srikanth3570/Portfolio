@@ -555,7 +555,7 @@ img, svg {
   }
   
   img {
-    max-width: 100%;
+    max-width:80%;
     height: auto;
   }
   @media (max-width: 768px) {
@@ -746,6 +746,17 @@ h5{
     box-shadow: 5px 5px 20px rgba(81, 60, 60, 0.3);
 }
 
+.video{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.video {
+    transition: transform 0.2s ease-in-out;
+}
 
+.video:hover {
+    transform: scale(1.5); /* Increases size by 1.5x on hover */
+}
 
 
