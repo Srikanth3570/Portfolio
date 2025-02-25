@@ -555,7 +555,7 @@ img, svg {
   }
   
   img {
-    max-width:80%;
+    max-width:100%;
     height: auto;
   }
   @media (max-width: 768px) {
@@ -750,6 +750,11 @@ h5{
     border-radius: 50%;
     height: 100px;
     width: 100px;
+}
+
+#gitintouchimg{
+    max-width:87%;
+    height: auto;
 }
 
 
